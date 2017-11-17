@@ -52,7 +52,7 @@ prset igrvarpr = exp(200) [tk02varpr = exp(1)];
 showmodel;
 showparams;
 
-mcmcp nrun = 2 nchain = 1 ngen = 500000 samplefr = 1000 checkfreq=10000 stopval=0.01;
+mcmcp nrun = 2 nchain = 3 ngen = 20000000 samplefr = 1000 checkfreq=10000;
 mcmcp printfr = 5000 diagnfr = 5000;
 
 mcmc;
